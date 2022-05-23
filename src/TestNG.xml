@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "My tests" parallel = "false">
+    <test name="AutomationPractice Tests">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="AuthorizationTest"/>
+            <class name="WishListTest"/>
+        </classes>
+    </test>
+</suite>
